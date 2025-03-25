@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock</title>
+    <link rel="stylesheet" href="Src/style.css">
   </head>
   <body>
     <h1>World Clock</h1>
@@ -15,33 +16,25 @@
             <select name="cities" id="cities">
                 <option value="">Select a city</option>
                 <option value="Sydney">Sydney</option>
-                <option value="Los Angeles">los Angeles</option>
+                <option value="Los Angeles">Los Angeles</option>
                 <option value="Nairobi">Nairobi</option>
             </select>
         </form> 
-      <p class="city">
-        <h1 class="cityName">Sydney</h1>
-        <div class="date">
-            Tue 25th March 2025
+        <p>
+        <div class="city">
+            <h2 class="cityName">
+                Sydney
+            </h2>
+            <div class="date">
+                Tue 25th March 2025
+                <div class="time">
+                    8:30 AM
+                </div>
+            </div>
+            
         </div>
-        <div class="time">
-            8:30 AM
         </div>
-        <h1 class="cityName">Los Angeles</h1>
-        <div class="date">
-            Tue 25th March 2025
-        </div>
-        <div class="time">
-            8:30 AM
-        </div>
-        <h1 class="cityName">Nairobi</h1>
-        <div class="date">
-            Tue 25th March 2025
-        </div>
-        <div class="time">
-            8:30 AM
-        </div>
-      </p>
+    </p>
     </main>
     <footer>
       This AI project was coded by
@@ -50,5 +43,6 @@
       and is hosted on
       <a href="https://worldclockchallenge.netlify.app/">Netlify</a>
     </footer>
+    <script src="Src/script.js"></script>
   </body>
 </html>
